@@ -1,6 +1,7 @@
 import random
 import time
 
+hello friend please delete this line when you're done with this
 
 n = random.randint(-10000,10000)
 

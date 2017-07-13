@@ -1,0 +1,61 @@
+[1mdiff --git a/number chase.py b/number chase.py[m
+[1mindex 2672d27..f84e85f 100644[m
+[1m--- a/number chase.py[m	
+[1m+++ b/number chase.py[m	
+[36m@@ -35,13 +35,3 @@[m [mwhile x == True:[m
+ [m
+             n = n + random.randint(0,100)[m
+ [m
+[31m-print here is the difference and you can see why![m
+[31m-[m
+[31m-[m
+[31m-print here is the difference and you can see why![m
+[31m-[m
+[31m-[m
+[31m-print here is the difference and you can see why![m
+[31m-[m
+[31m-[m
+[31m-print here is the difference and you can see why![m
+[1mdiff --git a/number chase.py~ b/number chase.py~[m
+[1mdeleted file mode 100644[m
+[1mindex f84e85f..0000000[m
+[1m--- a/number chase.py~[m	
+[1m+++ /dev/null[m
+[36m@@ -1,37 +0,0 @@[m
+[31m-import random[m
+[31m-import time[m
+[31m-[m
+[31m-[m
+[31m-n = random.randint(-10000,10000)[m
+[31m-[m
+[31m-x = True[m
+[31m-[m
+[31m-m = random.randint(-10000,10000)[m
+[31m-while x == True:[m
+[31m-    if m == n:[m
+[31m-[m
+[31m-        print("yay!")[m
+[31m-        break[m
+[31m-[m
+[31m-    else:[m
+[31m-        if m < n:[m
+[31m-[m
+[31m-            m = m + random.randint(0,100)[m
+[31m-[m
+[31m-            n = n + random.randint(-100,100)[m
+[31m-[m
+[31m-        if m > n:[m
+[31m-[m
+[31m-            m = m - random.randint(0,100)[m
+[31m-[m
+[31m-            n = n + random.randint(-100,100)[m
+[31m-    time.sleep(0.0000000000000000001)[m
+[31m-    print(n,"_-_-_-_",m)[m
+[31m-    if n > 100000:[m
+[31m-[m
+[31m-            n = n - random.randint(0,100)[m
+[31m-[m
+[31m-    if n < -100000:[m
+[31m-[m
+[31m-            n = n + random.randint(0,100)[m
+[31m-[m
